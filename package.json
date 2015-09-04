@@ -1,0 +1,33 @@
+{
+  "name": "Emotions-smiley",
+  "version": "0.0.1",
+  "private": true,
+  "author": "e-UCM Research Group",
+  "license": "Apache 2.0",
+  "scripts": {
+    "start": "node ./bin/www",
+    "lint": "jshint --verbose ."
+  },
+  "dependencies": {
+    "async": "^1.3.x",
+    "body-parser": "^1.13.x",
+    "easy-collections": "RotaruDan/easy-collections",
+    "express": "~4.13.x",
+    "jade": "*",
+    "underscore": "*",
+    "mongodb": "^2.0.x",
+    "morgan": "^1.6.x",
+    "request": "^2.60.x",
+    "shelljs": "^0.5.x"
+  },
+  "devDependencies": {
+    "apidoc": "*",
+    "coveralls": "*",
+    "handlebars": "*",
+    "istanbul": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "promptly": "*",
+    "q": "*"
+  }
+}
